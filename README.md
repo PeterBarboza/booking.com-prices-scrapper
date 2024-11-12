@@ -12,7 +12,7 @@ This is a command-line application to retrieve pricing data from Booking.com, bu
   - [Handling packages](#handling-packages)
   - [How, when, and where prices are saved](#how-when-and-where-prices-are-saved)
   - [config.json schema](#configjson-schema)
-- [How to execute it locally](#)
+- [How to Execute it Locally](#how-to-execute-it-locally)
 
 ## How the Application Works
 
