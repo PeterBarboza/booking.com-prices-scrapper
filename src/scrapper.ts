@@ -40,6 +40,11 @@ export async function scrapper({
 
   let currentUrl = url
 
+  // TODO: Clicar no botão de pesquisa da disponibilidade da própria propriedade
+  // // Aguardar a navegação
+  // // Utilizar a URL gerada dessa navagação para as consultas, alterando apenas os
+  // // parâmetros de checkin e checkout
+
   let i = 1
   let ammountOfDatesToJumpAfterBundleFound = null
   for (const date of dates) {
