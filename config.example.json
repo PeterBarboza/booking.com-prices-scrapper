@@ -1,0 +1,20 @@
+{
+  "properties": [
+    {
+      "name": "PROPERTY 1",
+      "url": "https://www.booking.com/PROPERTY_1_PROFILE_PATH",
+      "adultsAmmount": 2,
+      "startDate": "2024-11-08",
+      "endDate": "2025-01-02",
+      "maxBundleSize": 7
+    },
+    {
+      "name": "PROPERTY 1",
+      "url": "https://www.booking.com/PROPERTY_2_PROFILE_PATH",
+      "adultsAmmount": 2,
+      "startDate": "2024-11-08",
+      "endDate": "2025-01-02",
+      "maxBundleSize": 7
+    }
+  ]
+}
