@@ -81,32 +81,32 @@ Example of a CSV file:
 | `properties[number].endDate`       | String (YYYY-MM-DD) | End date for the searches, must be later than `properties[number].startDate`                                          | Yes      |
 | `properties[number].maxBundleSize` | Number              | Maximum bundle size to be searched when no price is found for a single-night reservation                              | Yes      |
 
-## How to execute it locally
+## How to Execute it Locally
 
-É necessário ter o NodeJS e o Google Chrome instalados no seu computador. Esse sistema foi testado apenas no Windows 11, o funcionamento dele em outros sistemas operacionais ou outras versões do Windows não e garantido.
+You need to have Node.js and Google Chrome installed on your computer. This system has been tested only on Windows 11; functionality on other operating systems or other versions of Windows is not guaranteed.
 
-- [Instale o NodeJS](https://nodejs.org/)
-- [Instale o Google Chrome](https://www.google.com/chrome/)
+- [Install Node.js](https://nodejs.org/)
+- [Install Google Chrome](https://www.google.com/chrome/)
 
-recomendo usar o como gerenciador de pacotes, [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/), mas pode seguir com o NPM se preferir
+It is recommended to use [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) as your package manager, but you can proceed with NPM if you prefer.
 
-Instale as depêndencias
+Install the dependencies:
 
 ```shell
 yarn
 ```
 
-Crie um arquivo `config.json` na raiz do projeto e preencha-o corretamente
+Create a `config.json` file in the root of the project and fill it out correctly.
 
-Apartir daqui você pode executa-lo em modo de desenvolvimento
+From here, you can run it in development mode:
 
-```
+```shell
 yarn dev
 ```
 
-Ou pode gerar o build e executa-lo em modo de produção
+Or you can build and run it in production mode:
 
-```
+```shell
 yarn build
 
 yarn start
