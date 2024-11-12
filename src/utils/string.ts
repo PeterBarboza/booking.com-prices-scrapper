@@ -11,7 +11,12 @@ export function generateNewBookingUrl(
 
   if (groupAdults && groupAdults > 0) {
     urlParams.append("group_adults", String(groupAdults))
+  } else {
+    urlParams.append("group_adults", "2")
   }
+
+  urlParams.append("no_rooms", "1")
+  urlParams.append("group_children", "0")
 
   const newUrl = `${url}?${urlParams.toString()}`
 
