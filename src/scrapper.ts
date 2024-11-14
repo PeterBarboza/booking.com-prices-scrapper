@@ -147,7 +147,7 @@ export async function scrapper({
           const finalResultNextDayDate = generateFinalResultDate(nextBundleDayDate)
 
           // TODO: Tirar último item do CSV depois
-          const value = `${finalResultCurrentDate};${finalResultNextDayDate};${selectedBlockPriceStringParsedToBrazilLocale};${bundleSize > 1 ? "BUNDLE " + bundleSize : ""}`
+          const value = `${finalResultCurrentDate};${finalResultNextDayDate};${selectedBlockPriceStringParsedToBrazilLocale}`
           await writeToFile(resultsFilepath, value)
         }
 
@@ -170,7 +170,7 @@ export async function scrapper({
         const finalResultCurrentDate = generateFinalResultDate(bundlePartDate)
         const finalResultNextDayDate = generateFinalResultDate(nextBundleDayDate)
 
-        const value = `${finalResultCurrentDate};${finalResultNextDayDate};S/D;`
+        const value = `${finalResultCurrentDate};${finalResultNextDayDate};S/D`
         await writeToFile(resultsFilepath, value)
       }
     }
